@@ -89,3 +89,7 @@ sys_uptime(void)
   release(&tickslock);
   return xticks;
 }
+uint64
+sys_retint(void){
+  return 2023;
+}
