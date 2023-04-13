@@ -132,9 +132,13 @@ UPROGS=\
 	$U/_grind\
 	$U/_wc\
 	$U/_zombie\
-	$U/_hello\
+	$U/_gm\
 	$U/_retint\
-
+	$U/_add\
+	$U/_help\
+	$U/_cpp\
+	
+	
 fs.img: mkfs/mkfs README $(UPROGS)
 	mkfs/mkfs fs.img README $(UPROGS)
 

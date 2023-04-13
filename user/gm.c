@@ -3,10 +3,10 @@
 
 int main(int argc, char* argv[]){
     if(argc < 2){
-        printf("Hello!\n");
+        printf("gm!\n");
     }
     else{
-        printf("Hello! %s\n",argv[1]);
+        printf("gm! %s\n",argv[1]);
     }
     exit(0);
 
